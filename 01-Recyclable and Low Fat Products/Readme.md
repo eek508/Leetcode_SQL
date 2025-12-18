@@ -1,8 +1,8 @@
-1757. Recyclable and Low Fat Products
+# [1757. Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50)
 
+Table: <code>Products</code>
 
-
-Table: Products
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -12,18 +12,16 @@ Table: Products
 +-------------+---------+
 product_id is the primary key (column with unique values) for this table.
 low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
-recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
- 
+recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.```
 
 Write a solution to find the ids of products that are both low fat and recyclable.
 
-Return the result table in any order.
+Return the result table in **any order** .
 
 The result format is in the following example.
 
- 
+**Example 1:** 
 
-Example 1:
 
 Input: 
 Products table:
@@ -44,3 +42,4 @@ Output:
 | 3           |
 +-------------+
 Explanation: Only products 1 and 3 are both low fat and recyclable.
+```
