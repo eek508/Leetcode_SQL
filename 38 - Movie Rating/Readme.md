@@ -13,8 +13,9 @@ movie_id is the primary key (column with unique values) for this table.
 title is the name of the movie.
 Each movie has a unique title.```
 
-Table: <code>Users</code>
+Table: Users
 
+```
 ```
 +---------------+---------+
 | Column Name   | Type    |
@@ -24,10 +25,11 @@ Table: <code>Users</code>
 +---------------+---------+
 user_id is the primary key (column with unique values) for this table.
 The column 'name' has unique values.
+
+
+Table: MovieRating
+
 ```
-
-Table: <code>MovieRating</code>
-
 ```
 +---------------+---------+
 | Column Name   | Type    |
@@ -41,7 +43,7 @@ Table: <code>MovieRating</code>
 This table contains the rating of a movie by a user in their review.
 created_at is the user's review date. 
 ```
-
+```
 Write a solution to:
 
 - Find the name of the user who has rated the greatest number of movies. In case of a tie, return the lexicographically smaller user name.
@@ -51,6 +53,7 @@ Theresult format is in the following example.
 
 **Example 1:** 
 
+```
 ```
 Input: 
 Movies table:
